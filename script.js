@@ -74,7 +74,7 @@ function iniciarCronometro() {
     document.getElementById('iniciarCronometroButton').textContent = 'Parar Cronômetro';
     document.getElementById('iniciarCronometroButton').style.backgroundColor = 'red';
 
-    let segundos = 5; // Definido novamente para 30 segundos
+    let segundos = 30; // Definido novamente para 30 segundos
     const cronometroElement = document.getElementById('cronometro');
     cronometroElement.textContent = segundos;
 
